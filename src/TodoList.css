@@ -1,0 +1,57 @@
+.todoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 165px;
+}
+
+/* Inspired by CodeAcademy's button. */
+.todoListMain .header button {
+    margin: 10px;
+    margin-right: 0px;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    background-color: #1985A1;
+    border-radius: 8px;
+    border-bottom: 4px solid #2F91AA;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* Inspired by CodeAcademy's button. */
+.todoListMain .header button:hover {
+    background-color: #469DB3;
+    border-bottom: 4px solid #2F91AA;
+    color: white;
+}
+
+/* Inspired by CodeAcademy's button. */
+.todoListMain .header button:active {
+    background-color: #2F91AA;
+    border-bottom: 4px solid #2F91AA;
+    color: #CCC;
+}
+
+.todoListMain .myList li {
+    color: #333;
+    background-color: rgba(197, 195, 198, 0.5);
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    list-style: none;
+
+    transition: background-color .1s ease-out;
+}
+
+.todoListMain .myList li:hover {
+    background-color: rgba(197, 195, 198, 1);
+}
+
+ul.myList {
+    padding: 0;
+}
